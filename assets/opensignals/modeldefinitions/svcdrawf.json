@@ -1,0 +1,195 @@
+{
+    "textures":{
+        "lamp_red":"opensignals:blocks/svc/hl_lamps/lamp_red",
+        "lamp_green":"opensignals:blocks/svc/hl_lamps/lamp_green",
+        "lamp_green_blink": "opensignals:blocks/svc/hl_lamps/lamp_green_blink",
+        "lamp_white": "opensignals:blocks/svc/hl_lamps/lamp_white",
+        "lamp_white_blink": "opensignals:blocks/svc/hl_lamps/lamp_white_blink",
+        "lamp_yellow": "opensignals:blocks/svc/hl_lamps/lamp_yellow",
+        "lamp_yellow_blink": "opensignals:blocks/svc/hl_lamps/lamp_yellow_blink"
+    },
+    "models":{
+        "svc/hl_drawf/hl_dwarf_exit": 
+        {
+                    "textures": [
+                        {
+                            "blockstate": "with(SVCDRAWFEXIT.OFF) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))"
+                        },
+                        {
+                            "blockstate": "with(SVCDRAWFEXIT.HP0) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_red": "lamp_red"
+                            }
+                        },
+                        {
+                            "blockstate": "with(SVCDRAWFEXIT.HL1) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_green": "lamp_green"
+                            }
+                        },
+                        {
+                            "blockstate": "with(SVCDRAWFEXIT.HL2_3) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_green": "lamp_green",
+                                "lamp_yellow": "lamp_yellow"
+                            }
+                        },
+                        {
+                            "blockstate": "with(SVCDRAWFEXIT.HL_ZS1) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_red": "lamp_red",
+                                "lamp_white_1": "lamp_white_blink"
+                            }
+                        },
+                        {
+                            "blockstate": "with(SVCDRAWFEXIT.HL_SHUNTING) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_red": "lamp_red",
+                                "lamp_white_2": "lamp_white",
+                                "lamp_white_1": "lamp_white"
+                            }
+                        },
+                        {
+                            "blockstate": "with(SVCDRAWFEXIT.HL_STATUS_LIGHT) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_white_1": "lamp_white"
+                            }
+                        }
+                    ],
+                "y": 0
+            },
+        "svc/hl_drawf/hl_dwarf_main":
+            {
+            "textures": [
+                        {
+                            "blockstate": "with(SVCDRAWFMAIN.OFF) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))"
+                        },
+                        {
+                            "blockstate": "with(SVCDRAWFMAIN.HP0) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_red": "lamp_red"
+                            }
+                        },
+                        {
+                    "blockstate": "with(SVCDRAWFMAIN.HL1) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL2_3) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL4) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL5_6) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green_blink",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL7) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL8_9) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow_blink",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL10) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL11_12) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL_ZS1) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_red": "lamp_red",
+                        "lamp_white_1": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL_SHUNTING) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_red": "lamp_red",
+                        "lamp_white_1": "lamp_white",
+                        "lamp_white_2": "lamp_white"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFMAIN.HL_STATUS_LIGHT) && (with(SVCDRAWFTYPE.DRAWF_MAIN) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_white_1": "lamp_white"
+                    }
+                }
+            ],
+        "y": 0
+            },
+        "svc/hl_drawf/hl_dwarf_sh": 
+            {
+                "textures": [
+                    {
+                                "blockstate": "with(SVCDRAWFSH.OFF) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))"
+                    },
+                {
+                    "blockstate": "with(SVCDRAWFSH.HP0) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_red_1": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFSH.HL_SHUNTING) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_red_1": "lamp_red",
+                        "lamp_white_2": "lamp_white",
+                        "lamp_white_1": "lamp_white"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFSH.HL_STATUS_LIGHT) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_white_1": "lamp_white"
+                    }
+                },
+                {
+                    
+                        "blockstate": "with(SVCDRAWFSH.HP0_ALTERNATE_RED) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))",
+                        "retexture": {
+                            "lamp_red_2": "lamp_red"
+                    }
+                    
+                },
+                {
+                    
+                    "blockstate": "with(SVCDRAWFSH.HL_ZS1) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_red_1": "lamp_red",
+                        "lamp_white_1": "lamp_white_blink"
+                    }
+                }
+            ],
+        "y": 0
+    }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "systemProperties": {
+        "placementToolName": "SVCHLDRAWFPLACER",
+        "canLink": true,
+        "defaultHeight": 0,
+        "customNameRenderHeight": 0.373,
+        "offsetX": 0,
+        "offsetY": 0,
+        "colors": [
+            16777215,
+            16761344
+        ]
+    },
+        "seProperties": [
+        {
+            "name": "svcdrawftype",
+            "enumClass": "SVCDRAWFTYPE",
+            "defaultState": "OFF",
+            "changeableStage": "GUISTAGE"
+        },
+        {
+            "name": "svcdrawfmain",
+            "enumClass": "SVCDRAWFMAIN",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "check(SVCDRAWFTYPE.DRAWF_MAIN)"
+        },
+        {
+            "name": "svcdrawfexit",
+            "enumClass": "SVCDRAWFEXIT",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "check(SVCDRAWFTYPE.DRAWF_EXIT)"
+        },
+        {
+            "name": "svcdrawfsh",
+            "enumClass": "SVCDRAWFSH",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "check(SVCDRAWFTYPE.DRAWF_SHUNTING)"
+        }
+    ]
+}

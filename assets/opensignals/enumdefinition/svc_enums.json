@@ -1,0 +1,41 @@
+{
+    "SVCDRAWFTYPE":[
+        "OFF",
+        "DRAWF_EXIT",
+        "DRAWF_MAIN",
+        "DRAWF_SHUNTING"
+    ],
+    
+    "SVCDRAWFMAIN": [
+        "OFF",
+        "HP0",
+        "HL1",
+        "HL2_3",
+        "HL4",
+        "HL5_6",
+        "HL7",
+        "HL8_9",
+        "HL10",
+        "HL11_12",
+        "HL_ZS1",
+        "HL_SHUNTING",
+        "HL_STATUS_LIGHT"
+    ],
+    "SVCDRAWFEXIT": [
+        "OFF",
+        "HP0",
+        "HL1",
+        "HL2_3",
+        "HL_ZS1",
+        "HL_SHUNTING",
+        "HL_STATUS_LIGHT"
+    ],
+    "SVCDRAWFSH": [
+        "OFF",
+        "HP0",
+        "HP0_ALTERNATE_RED",
+        "HL_ZS1",
+        "HL_SHUNTING",
+        "HL_STATUS_LIGHT"
+    ]
+}

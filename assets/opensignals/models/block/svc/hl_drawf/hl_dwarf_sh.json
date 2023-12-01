@@ -1,15 +1,16 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench by SkywalkerValle",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "assets:blocks/svc/hl_drawf/shield_gray",
-		"1": "assets:blocks/svc/hl_drawf/shield_black",
-		"3": "assets:blocks/svc/hl_drawf/wrw",
-		"5": "assets:blocks/svc/hl_drawf/sh_back",
-		"7": "assets:blocks/svc/hl_drawf/white",
-		"8": "assets:blocks/svc/hl_drawf/black_dots",
-		"particle": "assets:blocks/svc/hl_drawf/shield_black",
-		"lamp_whitenorth": "assets:blocks/svc/hl_lamps/lamp_dark"
+		"0": "opensignals:blocks/svc/hl_drawf/shield_gray",
+		"1": "opensignals:blocks/svc/hl_drawf/shield_black",
+		"3": "opensignals:blocks/svc/hl_drawf/wrw",
+		"5": "opensignals:blocks/svc/hl_drawf/sh_back",
+		"7": "opensignals:blocks/svc/hl_drawf/white",
+		"lamp_red": "opensignals:blocks/svc/hl_lamps/lamp_dark",
+		"lamp_white_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
+		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamp_dark",
+		"particle": "opensignals:blocks/svc/hl_drawf/shield_black"
 	},
 	"elements": [
 		{
@@ -48,19 +49,19 @@
 			}
 		},
 		{
-			"name": "lamp_red",
+			"name": "lamp_red_1",
 			"from": [6.5, 13, 5.9],
 			"to": [9.5, 16, 5.9],
 			"faces": {
-				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_whitenorth"}
+				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_red"}
 			}
 		},
 		{
-			"name": "lamp_alternative_red",
+			"name": "lamp_red_2",
 			"from": [9, 7, 5.9],
 			"to": [11, 9, 5.9],
 			"faces": {
-				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_whitenorth"}
+				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_red"}
 			}
 		},
 		{
@@ -68,7 +69,7 @@
 			"from": [5, 7, 5.9],
 			"to": [7, 9, 5.9],
 			"faces": {
-				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_whitenorth"}
+				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_white_1"}
 			}
 		},
 		{
@@ -76,7 +77,7 @@
 			"from": [9, 4, 5.9],
 			"to": [11, 6, 5.9],
 			"faces": {
-				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_whitenorth"}
+				"north": {"uv": [1, 1, 3, 3], "texture": "#lamp_white_2"}
 			}
 		},
 		{
@@ -226,23 +227,10 @@
 		},
 		{
 			"name": "wrw",
-			"from": [10.5, 10, 5.9],
-			"to": [12.5, 17, 6.9],
+			"from": [10.5, 9.9, 5.9],
+			"to": [12.5, 16.9, 6.9],
 			"faces": {
 				"north": {"uv": [0, 1, 16, 16], "texture": "#3"},
-				"east": {"uv": [0, 0, 5, 16], "texture": "#1"},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
-				"west": {"uv": [0, 0, 5, 16], "texture": "#1"},
-				"up": {"uv": [0, 0, 1, 1], "texture": "#1"},
-				"down": {"uv": [0, 0, 1, 1], "texture": "#1"}
-			}
-		},
-		{
-			"name": "black_dots",
-			"from": [10.5, 10, 5.9],
-			"to": [12.5, 17, 6.9],
-			"faces": {
-				"north": {"uv": [0, 0, 5, 16], "texture": "#8"},
 				"east": {"uv": [0, 0, 5, 16], "texture": "#1"},
 				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
 				"west": {"uv": [0, 0, 5, 16], "texture": "#1"},
@@ -298,7 +286,7 @@
 			"name": "signs",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [19, 20, 21]
+			"children": [19, 20]
 		}
 	]
 }
