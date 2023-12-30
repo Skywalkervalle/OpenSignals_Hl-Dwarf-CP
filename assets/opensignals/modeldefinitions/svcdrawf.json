@@ -35,6 +35,19 @@
                             }
                         },
                         {
+                            "blockstate": "with(SVCDRAWFEXIT.HL_4) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_green": "lamp_green_blink"
+                            }
+                        },
+                        {
+                            "blockstate": "with(SVCDRAWFEXIT.HL5_6) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
+                            "retexture": {
+                                "lamp_green": "lamp_green_blink",
+                                "lamp_yellow": "lamp_yellow"
+                            }
+                        },
+                        {
                             "blockstate": "with(SVCDRAWFEXIT.HL_ZS1) && (with(SVCDRAWFTYPE.DRAWF_EXIT) || !has(SVCDRAWFTYPE))",
                             "retexture": {
                                 "lamp_red": "lamp_red",

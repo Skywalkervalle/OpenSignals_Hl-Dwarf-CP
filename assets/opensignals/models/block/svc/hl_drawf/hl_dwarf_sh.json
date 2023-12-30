@@ -4,14 +4,14 @@
 	"textures": {
 		"0": "opensignals:blocks/svc/hl_drawf/shield_gray",
 		"1": "opensignals:blocks/svc/hl_drawf/shield_black",
-		"3": "opensignals:blocks/svc/hl_drawf/wrw",
 		"5": "opensignals:blocks/svc/hl_drawf/sh_back",
 		"7": "opensignals:blocks/svc/hl_drawf/white",
+		"particle": "opensignals:blocks/svc/hl_drawf/shield_black",
+		"mast": "opensignals:blocks/svc/hl_drawf/wrw",
 		"lamp_red_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
 		"lamp_red_2": "opensignals:blocks/svc/hl_lamps/lamp_dark",
 		"lamp_white_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"particle": "opensignals:blocks/svc/hl_drawf/shield_black"
+		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamp_dark"
 	},
 	"elements": [
 		{
@@ -20,7 +20,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 6, 3], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 3], "texture": "#1"},
-				"south": {"uv": [0, 0, 16, 8], "texture": "#5"},
+				"south": {"uv": [16, 0, 0, 8], "texture": "#5"},
 				"west": {"uv": [0, 0, 2, 3], "texture": "#1"},
 				"down": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}
@@ -31,7 +31,7 @@
 			"faces": {
 				"north": {"uv": [1, 0.5, 14.5, 11], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 3], "texture": "#1"},
-				"south": {"uv": [0, 5, 16, 13], "texture": "#5"},
+				"south": {"uv": [16, 0, 0, 8], "texture": "#5"},
 				"west": {"uv": [0, 0, 2, 3], "texture": "#1"},
 				"up": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}
@@ -231,7 +231,7 @@
 			"from": [10.5, 9.9, 5.9],
 			"to": [12.5, 16.9, 6.9],
 			"faces": {
-				"north": {"uv": [0, 1, 16, 16], "texture": "#3"},
+				"north": {"uv": [0, 1, 16, 16], "texture": "#mast"},
 				"east": {"uv": [0, 0, 5, 16], "texture": "#1"},
 				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
 				"west": {"uv": [0, 0, 5, 16], "texture": "#1"},

@@ -1,0 +1,10 @@
+{
+    "currentSignal": "hlsignal",
+    "allStates": {
+        "ZS1": [
+            "svcdrawfmain.HL_ZS1",
+            "svcdrawfexit.HL_ZS1",
+            "svcdrawfsh.HL_ZS1"
+        ]
+    }
+}

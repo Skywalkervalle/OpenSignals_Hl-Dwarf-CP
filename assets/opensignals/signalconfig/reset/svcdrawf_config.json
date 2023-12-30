@@ -1,0 +1,8 @@
+{
+    "currentSignal": "hldrawfsignal",
+    "values": [
+        "svcdrawfmain.HP0",
+        "svcdrawfexit.HP0",
+        "svcdrawfsh.HP0"
+    ]
+}

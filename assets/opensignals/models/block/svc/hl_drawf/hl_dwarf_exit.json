@@ -6,13 +6,14 @@
 		"1": "opensignals:blocks/svc/hl_drawf/shield_black",
 		"3": "opensignals:blocks/svc/hl_drawf/wrw",
 		"5": "opensignals:blocks/svc/hl_drawf/sh_back",
-		"lamp_green": "opensignals:blocks/svc/hl_lamps/lamp_dark",
+		"6": "opensignals:blocks/svc/hl_drawf/mast_pfeil_gelb",
 		"7": "opensignals:blocks/svc/hl_drawf/white",
+		"particle": "opensignals:blocks/svc/hl_drawf/shield_black",
 		"lamp_red": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"lamp_white_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"lamp_white_2":	"opensignals:blocks/svc/hl_lamps/lamp_dark",
+		"lamp_green": "opensignals:blocks/svc/hl_lamps/lamp_dark",
 		"lamp_yellow": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"particle": "opensignals:blocks/svc/hl_drawf/shield_black"
+		"lamp_white_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
+		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamp_dark"
 	},
 	"elements": [
 		{
@@ -21,7 +22,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 6, 3], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 3], "texture": "#1"},
-				"south": {"uv": [0, 0, 16, 8], "texture": "#5"},
+				"south": {"uv": [16, 0, 0, 8], "texture": "#5"},
 				"west": {"uv": [0, 0, 2, 3], "texture": "#1"},
 				"down": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}
@@ -32,7 +33,7 @@
 			"faces": {
 				"north": {"uv": [1, 0.5, 14.5, 11], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 3], "texture": "#1"},
-				"south": {"uv": [0, 5, 16, 13], "texture": "#5"},
+				"south": {"uv": [16, 0, 0, 8], "texture": "#5"},
 				"west": {"uv": [0, 0, 2, 3], "texture": "#1"},
 				"up": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}
@@ -257,8 +258,8 @@
 		},
 		{
 			"name": "name",
-			"from": [3.1, 10.5, 5.9],
-			"to": [6.1, 13.5, 6.9],
+			"from": [7.1, 9.5, 5.9],
+			"to": [10.1, 12.5, 6.9],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#7"},
 				"east": {"uv": [0, 0, 5, 16], "texture": "#1"},
@@ -277,6 +278,19 @@
 				"east": {"uv": [0, 0, 5, 16], "texture": "#1"},
 				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
 				"west": {"uv": [0, 0, 5, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "mast_pfeil_gelb",
+			"from": [3.4, 9.9, 5.9],
+			"to": [4.4, 16.9, 6.9],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 0, 5, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
 				"up": {"uv": [0, 0, 1, 1], "texture": "#1"},
 				"down": {"uv": [0, 0, 1, 1], "texture": "#1"}
 			}
@@ -335,7 +349,7 @@
 			"name": "signs",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [23, 24]
+			"children": [23, 24, 25]
 		}
 	]
 }
