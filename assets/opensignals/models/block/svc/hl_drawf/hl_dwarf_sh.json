@@ -11,7 +11,8 @@
 		"lamp_red_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
 		"lamp_red_2": "opensignals:blocks/svc/hl_lamps/lamp_dark",
 		"lamp_white_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamp_dark"
+		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamd_dark"
+		
 	},
 	"elements": [
 		{
@@ -20,7 +21,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 6, 3], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 3], "texture": "#1"},
-				"south": {"uv": [16, 0, 0, 8], "texture": "#5"},
+				"south": {"uv": [14, 1, 5, 11], "texture": "#5"},
 				"west": {"uv": [0, 0, 2, 3], "texture": "#1"},
 				"down": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}
@@ -31,7 +32,7 @@
 			"faces": {
 				"north": {"uv": [1, 0.5, 14.5, 11], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 3], "texture": "#1"},
-				"south": {"uv": [16, 0, 0, 8], "texture": "#5"},
+				"south": {"uv": [15, 0, 6, 10], "rotation": 180, "texture": "#5"},
 				"west": {"uv": [0, 0, 2, 3], "texture": "#1"},
 				"up": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}

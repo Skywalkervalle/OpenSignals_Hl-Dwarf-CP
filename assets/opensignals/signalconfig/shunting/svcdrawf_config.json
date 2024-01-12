@@ -1,8 +1,0 @@
-{
-    "currentSignal": "hldrawfsignal",
-    "values": [
-        "svcdrawfexit.HL_SHUNTING",
-        "svcdrawfmain.HL_SHUNTING",
-        "svcdrawfsh.HL_SHUNTING"
-    ]
-}
