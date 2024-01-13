@@ -11,8 +11,7 @@
 		"lamp_red_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
 		"lamp_red_2": "opensignals:blocks/svc/hl_lamps/lamp_dark",
 		"lamp_white_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamd_dark"
-		
+		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamp_dark"
 	},
 	"elements": [
 		{
@@ -21,7 +20,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 6, 3], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 3], "texture": "#1"},
-				"south": {"uv": [14, 1, 5, 11], "texture": "#5"},
+				"south": {"uv": [13, 1, 5, 11], "texture": "#5"},
 				"west": {"uv": [0, 0, 2, 3], "texture": "#1"},
 				"down": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}
@@ -32,7 +31,7 @@
 			"faces": {
 				"north": {"uv": [1, 0.5, 14.5, 11], "texture": "#1"},
 				"east": {"uv": [0, 0, 2, 3], "texture": "#1"},
-				"south": {"uv": [15, 0, 6, 10], "rotation": 180, "texture": "#5"},
+				"south": {"uv": [15, 0, 7, 10], "rotation": 180, "texture": "#5"},
 				"west": {"uv": [0, 0, 2, 3], "texture": "#1"},
 				"up": {"uv": [0, 0, 6, 2], "texture": "#1"}
 			}
@@ -215,11 +214,11 @@
 			}
 		},
 		{
-			"name": "name",
-			"from": [4.5, 3.5, 5.9],
-			"to": [7.5, 6.5, 6.9],
+			"name": "wrw",
+			"from": [10.5, 9.9, 5.9],
+			"to": [12.5, 16.9, 6.9],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#7"},
+				"north": {"uv": [0, 1, 16, 16], "texture": "#mast"},
 				"east": {"uv": [0, 0, 5, 16], "texture": "#1"},
 				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
 				"west": {"uv": [0, 0, 5, 16], "texture": "#1"},
@@ -228,11 +227,11 @@
 			}
 		},
 		{
-			"name": "wrw",
-			"from": [10.5, 9.9, 5.9],
-			"to": [12.5, 16.9, 6.9],
+			"name": "name",
+			"from": [8.6, 17, 5.9],
+			"to": [13.1, 21, 6.4],
 			"faces": {
-				"north": {"uv": [0, 1, 16, 16], "texture": "#mast"},
+				"north": {"uv": [0, 0, 16, 16], "texture": "#7"},
 				"east": {"uv": [0, 0, 5, 16], "texture": "#1"},
 				"south": {"uv": [0, 0, 1, 1], "texture": "#1"},
 				"west": {"uv": [0, 0, 5, 16], "texture": "#1"},
@@ -288,7 +287,8 @@
 			"name": "signs",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [19, 20]
-		}
+			"children": [19]
+		},
+		20
 	]
 }

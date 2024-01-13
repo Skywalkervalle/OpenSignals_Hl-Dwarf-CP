@@ -3,9 +3,9 @@
         "placementToolName": "SVCHLDRAWFPLACER",
         "canLink": true,
         "defaultHeight": 0,
-        "customNameRenderHeight": 0.373,
-        "offsetX": 0,
-        "offsetY": 0,
+        "customNameRenderHeight": 1.3,
+        "offsetX": 2,
+        "offsetY": 2,
         "colors": [
             16777215,
             16761344
@@ -18,7 +18,7 @@
             "defaultState": "OFF",
             "changeableStage": "GUISTAGE"
         },
-        {
+        {   
             "name": "svcdrawfmain",
             "enumClass": "SVCDRAWFMAIN",
             "defaultState": "OFF",
