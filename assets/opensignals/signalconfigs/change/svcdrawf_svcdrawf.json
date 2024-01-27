@@ -23,4 +23,4 @@
         "map(slow) && speed(>=.6) && speed(<=.9)": ["svcdrawfmain.HL8_9", "svcdrawfexit.HL1", "svcdrawfsh.HL_STATUS_LIGHT"],
         "map(slow) && speed(==.10)": ["svcdrawfmain.HL8_9", "svcdrawfexit.HL1", "svcdrawfsh.HL_STATUS_LIGHT"]
     }
-}
+}   
