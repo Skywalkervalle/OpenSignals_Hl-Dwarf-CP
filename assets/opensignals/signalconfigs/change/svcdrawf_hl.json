@@ -12,15 +12,15 @@
 },
 "values": 
     {
-        "map(stop) && (speed(<.1) || speed(>=.11))": ["svcdrawfmain.HL10", "svcdrawfexit.HL1", "svcdrawfsh.HL_STATUS_LIGHT"],
+        "map(stop) && (speed(<.1) || speed(>=.11))": ["svcdrawfmain.HL1", "svcdrawfexit.HL1", "svcdrawfsh.HL_STATUS_LIGHT"],
         "map(stop) && speed(>=.1) && speed(<=.5)": ["svcdrawfmain.HL11_12", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
         "map(stop) && speed(>=.6) && speed(<=.9)": ["svcdrawfmain.HL11_12", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
-        "map(stop) && speed(==.10)": ["svcdrawfmain.HL11_12", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
+        "map(stop) && speed(==.10)": ["svcdrawfmain.HL8_9", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
         
         "map(drive) && (speed(<.1) || speed(>=.11))": ["svcdrawfmain.HL1", "svcdrawfexit.HL1", "svcdrawfsh.HL_STATUS_LIGHT"],    
         "map(drive) && speed(>=.1) && speed(<=.5)": ["svcdrawfmain.HL11_12", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
         "map(drive) && speed(>=.6) && speed(<=.9)": ["svcdrawfmain.HL11_12", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
-        "map(drive) && speed(==.10)": ["svcdrawfmain.HL11_12", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
+        "map(drive) && speed(==.10)": ["svcdrawfmain.HL4", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
         
         "map(slow) && (speed(<.1) || speed(>=.11))": ["svcdrawfmain.HL7", "svcdrawfexit.HL1", "svcdrawfsh.HL_STATUS_LIGHT"],
         "map(slow) && speed(>=.1) && speed(<=.5)": ["svcdrawfmain.HL8_9", "svcdrawfexit.HL2_3", "svcdrawfsh.HL_STATUS_LIGHT"],
