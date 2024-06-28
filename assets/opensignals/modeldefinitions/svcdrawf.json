@@ -203,6 +203,45 @@
                 }
             ],
         "y": 0
-    }
+        },
+        "svc/hl_drawf/hl_dwarf_distant":
+        {
+            "textures": 
+            [
+                {
+                    "blockstate": "with(SVCDRAWFSH.OFF) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))"
+                },
+                {
+                "blockstate": "with(SVCDRAWFSH.HL1) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                "retexture": {
+                        "lamp_green": "lamp_green"
+                }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFSH.HL4) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green_blink"
+                    }
+                },
+                {
+                        "blockstate": "with(SVCDRAWFSH.HL10) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                        "retexture": {
+                            "lamp_yellow": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFSH.HL7) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                            "lamp_yellow": "lamp_yellow_blink"
+                }
+                },
+                {
+                    "blockstate": "with(SVCDRAWFSH.HL_STATUS_LIGHT) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                            "lamp_white_1": "lamp_white"
+                }
+                }
+            ],
+        "y": 0
     }
 }

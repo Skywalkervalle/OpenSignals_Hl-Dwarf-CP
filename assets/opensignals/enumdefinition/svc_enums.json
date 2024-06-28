@@ -39,5 +39,13 @@
         "HL_ZS1",
         "HL_SHUNTING",
         "HL_STATUS_LIGHT"
+    ],
+    "SVCDRAWFDISTANT": [
+        "OFF",
+        "HL1",
+        "HL4",
+        "HL7",
+        "HL10",
+        "HL_STATUS_LIGHT"
     ]
 }
