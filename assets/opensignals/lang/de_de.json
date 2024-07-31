@@ -1,0 +1,9 @@
+{
+"item.svchldrawfplacer.name": "Hl-Zwergsignale", 
+"tile.svcdrawf.name": "Hl-Zwergsignale", 
+"property.svcdrawftype.name": "Typ",
+"property.svcdrawftype.desc": "",
+"property.value.DRAWF_EXIT": "Ausfahrsignal",
+"property.value.DRAWF_MAIN": "Zwischensignal",
+"property.value.DRAWF_SHUNTING": "Sperrsignal"
+}

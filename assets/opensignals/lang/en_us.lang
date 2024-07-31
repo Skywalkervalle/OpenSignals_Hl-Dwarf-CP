@@ -1,0 +1,7 @@
+item.svchldrawfplacer.name=Hl-Dwarfsignal
+tile.svcdrawf.name=Hl-Dwarfsignal
+property.svcdrawftype.name=Typ
+property.svcdrawftype.desc=
+property.value.DRAWF_EXIT=Exit Signal
+property.value.DRAWF_MAIN=Main Signal
+property.value.DRAWF_SHUNTING=Shunting Signal
