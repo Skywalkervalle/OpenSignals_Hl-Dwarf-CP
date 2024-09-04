@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench by SkywalkerValle",
+	"textures": {
+		"0": "opensignals:blocks/ne/ne2",
+		"particle": "opensignals:blocks/ne/ne2"
+	},
+	"elements": [
+		{
+			"name": "ne2_2",
+			"from": [3.7, 3.8, 5.975],
+			"to": [8.6, 11.1, 6.975],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-6, -5.3, 0.075]},
+			"faces": {
+				"north": {"uv": [0, 0, 10, 14], "texture": "#0"}
+			}
+		}
+	]
+}

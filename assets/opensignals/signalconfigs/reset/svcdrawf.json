@@ -3,6 +3,7 @@
     "values": [
         "svcdrawfmain.HP0",
         "svcdrawfexit.HP0",
-        "svcdrawfsh.HP0"
+        "svcdrawfsh.HP0",
+        "svcdrawfdistant.HL10"
     ]
 }

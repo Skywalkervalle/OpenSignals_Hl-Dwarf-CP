@@ -1,12 +1,12 @@
 {
     "textures":{
-        "lamp_red":"opensignals:blocks/svc/hl_lamps/lamp_red",
-        "lamp_green":"opensignals:blocks/svc/hl_lamps/lamp_green",
-        "lamp_green_blink": "opensignals:blocks/svc/hl_lamps/lamp_green_blink",
-        "lamp_white": "opensignals:blocks/svc/hl_lamps/lamp_white",
-        "lamp_white_blink": "opensignals:blocks/svc/hl_lamps/lamp_white_blink",
-        "lamp_yellow": "opensignals:blocks/svc/hl_lamps/lamp_yellow",
-        "lamp_yellow_blink": "opensignals:blocks/svc/hl_lamps/lamp_yellow_blink"
+        "lamp_red":"opensignals:blocks/lamps/lamp_red",
+        "lamp_green":"opensignals:blocks/lamps/lamp_green",
+        "lamp_green_blink": "opensignals:blocks/lamps/lamp_green_blink",
+        "lamp_white": "opensignals:blocks/lamps/lamp_white",
+        "lamp_white_blink": "opensignals:blocks/lamps/lamp_white_blink",
+        "lamp_yellow": "opensignals:blocks/lamps/lamp_yellow",
+        "lamp_yellow_blink": "opensignals:blocks/lamps/lamp_yellow_blink"
     },
     "models":{
         "svc/hl_drawf/hl_dwarf_exit": 
@@ -158,12 +158,12 @@
                 }
             ],
         "y": 0
-            },
+        },
         "svc/hl_drawf/hl_dwarf_sh": 
-            {
+        {
                 "textures": [
                     {
-                                "blockstate": "with(SVCDRAWFSH.OFF) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))"
+                    "blockstate": "with(SVCDRAWFSH.OFF) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))"
                     },
                 {
                     "blockstate": "with(SVCDRAWFSH.HP0) && (with(SVCDRAWFTYPE.DRAWF_SHUNTING) || !has(SVCDRAWFTYPE))",
@@ -209,40 +209,60 @@
             "textures": 
             [
                 {
-                    "blockstate": "with(SVCDRAWFSH.OFF) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))"
+                    "blockstate": "with(SVCDRAWFDISTANT.OFF) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))"
                 },
                 {
-                "blockstate": "with(SVCDRAWFSH.HL1) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                "blockstate": "with(SVCDRAWFDISTANT.HL1) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
                 "retexture": {
                         "lamp_green": "lamp_green"
                 }
                 },
                 {
-                    "blockstate": "with(SVCDRAWFSH.HL4) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                    "blockstate": "with(SVCDRAWFDISTANT.HL4) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
                     "retexture": {
                         "lamp_green": "lamp_green_blink"
                     }
                 },
                 {
-                        "blockstate": "with(SVCDRAWFSH.HL10) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                        "blockstate": "with(SVCDRAWFDISTANT.HL10) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
                         "retexture": {
                             "lamp_yellow": "lamp_yellow"
                     }
                 },
                 {
-                    "blockstate": "with(SVCDRAWFSH.HL7) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                    "blockstate": "with(SVCDRAWFDISTANT.HL7) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
                     "retexture": {
                             "lamp_yellow": "lamp_yellow_blink"
                 }
                 },
                 {
-                    "blockstate": "with(SVCDRAWFSH.HL_STATUS_LIGHT) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
+                    "blockstate": "with(SVCDRAWFDISTANT.HL_STATUS_LIGHT) && (with(SVCDRAWFTYPE.DRAWF_DISTANT) || !has(SVCDRAWFTYPE))",
                     "retexture": {
-                            "lamp_white_1": "lamp_white"
+                            "lamp_white": "lamp_white"
                 }
                 }
             ],
         "y": 0
+        },
+        "svc/hl_drawf/hl_dwarf_ne2":
+        {
+            "textures":
+            [
+                {
+                    "blocksstate": "hasandis(SVCNE2) && has(DRAWF_DISTANT) && hasandisnot(SVCNE2_4)"
+                }
+            ],
+        "y":0
+        },
+        "svc/hl_drawf/hl_dwarf_ne2_4":
+        {
+            "textures": 
+            [
+                {
+                    "blocksstate": "hasandis(SVCNE2_4) && has(DRAWF_DISTANT) && hasandisnot(SVCNE2)"
+                }
+            ],
+            "y":0
         }
     }
 }

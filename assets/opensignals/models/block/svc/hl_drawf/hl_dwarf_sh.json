@@ -2,16 +2,16 @@
 	"credit": "Made with Blockbench by SkywalkerValle",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "opensignals:blocks/svc/hl_drawf/shield_gray",
-		"1": "opensignals:blocks/svc/hl_drawf/shield_black",
-		"5": "opensignals:blocks/svc/hl_drawf/sh_back",
-		"7": "opensignals:blocks/svc/hl_drawf/white",
-		"particle": "opensignals:blocks/svc/hl_drawf/shield_black",
-		"mast": "opensignals:blocks/svc/hl_drawf/wrw",
-		"lamp_red_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"lamp_red_2": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"lamp_white_1": "opensignals:blocks/svc/hl_lamps/lamp_dark",
-		"lamp_white_2": "opensignals:blocks/svc/hl_lamps/lamp_dark"
+		"0": "opensignals:blocks/default/shield_gray",
+		"1": "opensignals:blocks/default/shield_black",
+		"5": "opensignals:blocks/sh/sh_back",
+		"7": "opensignals:blocks/default/white",
+		"particle": "opensignals:blocks/default/shield_black",
+		"mast": "opensignals:blocks/mast_sign/wrw",
+		"lamp_red_1": "opensignals:blocks/lamps/lamp_dark",
+		"lamp_red_2": "opensignals:blocks/lamps/lamp_dark",
+		"lamp_white_1": "opensignals:blocks/lamps/lamp_dark",
+		"lamp_white_2": "opensignals:blocks/lamps/lamp_dark"
 	},
 	"elements": [
 		{
