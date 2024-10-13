@@ -1,5 +1,5 @@
 {
-    "currentSignal": "svcdrawf",
+    "currentSignals": ["svcdrawf"],
     "values": {
         "":["svcdrawfsh.HL_STATUS_LIGHT"],
         "speed(<.1) || speed(>=.11)": ["svcdrawfmain.HL1","svcdrawfexit.HL1", "svcdrawfsh.HL_STATUS_LIGHT", "svcdrawfdistant.HL1"],

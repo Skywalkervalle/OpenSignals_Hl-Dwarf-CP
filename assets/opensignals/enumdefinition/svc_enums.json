@@ -23,7 +23,7 @@
         "HL_STATUS_LIGHT"
     ],
     "SVCDRAWFEXIT": [
-        "OFF",
+        "OFF",  
         "HP0",
         "HL1",
         "HL2_3",
@@ -51,10 +51,7 @@
     ],
     "SVCDRAWFNE2": [
         "OFF",
-        "SVCNE2"
-    ],
-    "SVCDRAWFNE2_4":[
-        "OFF",
-        "SVCNE2_4"
+        "SNE2",
+        "SNE2_4"
     ]
 }

@@ -6,7 +6,7 @@
 	},
 	"elements": [
 		{
-			"name": "ne2_2",
+			"name": "ne2_4",
 			"from": [3.7, 3.3, 5.975],
 			"to": [8.6, 8.6, 6.975],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-6, -7.8, 0.075]},

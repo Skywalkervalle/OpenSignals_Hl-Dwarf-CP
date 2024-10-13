@@ -6,7 +6,9 @@
         "lamp_white": "opensignals:blocks/lamps/lamp_white",
         "lamp_white_blink": "opensignals:blocks/lamps/lamp_white_blink",
         "lamp_yellow": "opensignals:blocks/lamps/lamp_yellow",
-        "lamp_yellow_blink": "opensignals:blocks/lamps/lamp_yellow_blink"
+        "lamp_yellow_blink": "opensignals:blocks/lamps/lamp_yellow_blink",
+        "ne2": "opensignals:blocks/ne/ne2",
+        "ne2_4": "opensignals:blocks/ne/ne2_4"
     },
     "models":{
         "svc/hl_drawf/hl_dwarf_exit": 
@@ -246,23 +248,21 @@
         },
         "svc/hl_drawf/hl_dwarf_ne2":
         {
-            "textures":
-            [
+            "textures": [
                 {
-                    "blocksstate": "hasandis(SVCNE2) && has(DRAWF_DISTANT) && hasandisnot(SVCNE2_4)"
+                "blockstate": "hasandis(SNE2)"
                 }
             ],
         "y":0
         },
         "svc/hl_drawf/hl_dwarf_ne2_4":
         {
-            "textures": 
-            [
+            "textures": [
                 {
-                    "blocksstate": "hasandis(SVCNE2_4) && has(DRAWF_DISTANT) && hasandisnot(SVCNE2)"
+                "blockstate": "hasandis(SNE2_4)"
                 }
             ],
-            "y":0
+        "y":0
         }
     }
 }

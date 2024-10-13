@@ -1,6 +1,6 @@
 {
-"currentSignal": "svcdrawf",
-"nextSignal": "hlsignal",
+"currentSignals": ["svcdrawf"],
+"nextSignals": ["hlsignal"],
 "savedPredicates": 
 {
     "stop": "config(mainlightsignal.HP0) || config(mainlightsignal.HP0_ALTERNATE_RED) || config(mainlightsignal.HL_ZS1) || config(mainlightsignal.HL_SHUNTING) || config(exitsignal.HP0) || config(exitsignal.HP0_ALTERNATE_RED) || config(exitsignal.HL_ZS1) || config(exitsignal.HL_SHUNTING) || config(blocksignal.HP0) || config(blocksignal.HP0_ALTERNATE_RED) || config(blocksignal.HL_ZS1) || config(blockexitsignal.HP0) || config(blockexitsignal.HL_ZS1) || config(blockexitsignal.HL_SHUNTING)",

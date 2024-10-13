@@ -1,6 +1,6 @@
 {
-    "currentSignal": "hlsignal",
-    "nextSignal": "svcdrawf",
+    "currentSignals": ["hlsignal"],
+    "nextSignals": ["svcdrawf"],
     "savedPredicates": 
     {
     "stop": "config(svcdrawfmain.HP0) || config(svcdrawfmain.HL_ZS1) || config(svcdrawfmain.HL_SHUNTING) || config(svcdrawfexit.HP0) || config(svcdrawfexit.HL_ZS1) || config(svcdrawfexit.HL_SHUNTING) || config(svcdrawfsh.HP0) || config(svcdrawfsh.HP0_ALTERNATE_RED) || config(svcdrawfsh.HL_ZS1) || config(svcdrawfsh.HL_SHUNTING)",

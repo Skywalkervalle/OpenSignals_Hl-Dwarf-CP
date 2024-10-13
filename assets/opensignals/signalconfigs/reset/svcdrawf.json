@@ -1,9 +1,11 @@
 {
-    "currentSignal": "svcdrawf",
-    "values": [
+    "currentSignals": ["svcdrawf"],
+    "values": {
+    "true": [
         "svcdrawfmain.HP0",
         "svcdrawfexit.HP0",
         "svcdrawfsh.HP0",
         "svcdrawfdistant.HL10"
-    ]
+        ]
+    }
 }

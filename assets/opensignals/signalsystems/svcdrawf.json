@@ -51,15 +51,15 @@
             "dependencies": "config(SVCDRAWFTYPE.DRAWF_DISTANT)"        
         },
         {
-            "name": "svcdrawfne2",
-            "enumClass": "SVCDRAWFNE2",
+            "name": "sne2",
+            "enumClass": "SNE2",
             "defaultState": false,
             "autoname": true,
             "changeableStage": "GUISTAGE"
         },
         {
-            "name": "svcdrawfne2_4",
-            "enumClass": "SVCDRAWFNE2_4",
+            "name": "sne2_4",
+            "enumClass": "SNE2_4",
             "defaultState": false,
             "autoname": true,
             "changeableStage": "GUISTAGE"
