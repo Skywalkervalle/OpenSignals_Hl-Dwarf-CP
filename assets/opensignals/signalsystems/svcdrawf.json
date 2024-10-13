@@ -24,7 +24,7 @@
             "defaultState": "OFF",
             "changeableStage": "APISTAGE_NONE_CONFIG",
             "autoname": true,
-            "dependencies": "check(SVCDRAWFTYPE.DRAWF_MAIN)"
+            "dependencies": "config(SVCDRAWFTYPE.DRAWF_MAIN)"
         },
         {
             "name": "svcdrawfexit",
@@ -32,7 +32,7 @@
             "defaultState": "OFF",
             "changeableStage": "APISTAGE_NONE_CONFIG",
             "autoname": true,
-            "dependencies": "check(SVCDRAWFTYPE.DRAWF_EXIT)"
+            "dependencies": "config(SVCDRAWFTYPE.DRAWF_EXIT)"
         },
         {
             "name": "svcdrawfsh",
@@ -40,7 +40,29 @@
             "defaultState": "OFF",
             "changeableStage": "APISTAGE_NONE_CONFIG",
             "autoname": true,
-            "dependencies": "check(SVCDRAWFTYPE.DRAWF_SHUNTING)"
+            "dependencies": "config(SVCDRAWFTYPE.DRAWF_SHUNTING)"
+        },
+        {     
+            "name": "svcdrawfdistant", 
+            "enumClass": "SVCDRAWFDISTANT",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(SVCDRAWFTYPE.DRAWF_DISTANT)"        
+        },
+        {
+            "name": "sne2",
+            "enumClass": "SNE2",
+            "defaultState": false,
+            "autoname": true,
+            "changeableStage": "GUISTAGE"
+        },
+        {
+            "name": "sne2_4",
+            "enumClass": "SNE2_4",
+            "defaultState": false,
+            "autoname": true,
+            "changeableStage": "GUISTAGE"
         }
     ]
 }

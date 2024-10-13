@@ -1,6 +1,7 @@
 {
     "SVCDRAWFTYPE":[
         "OFF",
+        "DRAWF_DISTANT",
         "DRAWF_EXIT",
         "DRAWF_MAIN",
         "DRAWF_SHUNTING"
@@ -22,7 +23,7 @@
         "HL_STATUS_LIGHT"
     ],
     "SVCDRAWFEXIT": [
-        "OFF",
+        "OFF",  
         "HP0",
         "HL1",
         "HL2_3",
@@ -39,5 +40,18 @@
         "HL_ZS1",
         "HL_SHUNTING",
         "HL_STATUS_LIGHT"
+    ],
+    "SVCDRAWFDISTANT": [
+        "OFF",
+        "HL1",
+        "HL4",
+        "HL7",
+        "HL10",
+        "HL_STATUS_LIGHT"
+    ],
+    "SVCDRAWFNE2": [
+        "OFF",
+        "SNE2",
+        "SNE2_4"
     ]
 }
