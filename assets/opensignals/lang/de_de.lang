@@ -1,0 +1,11 @@
+item.svchldrawfplacer.name=Hl Zwergsignal Platzierer
+tile.svcdrawf.name=Hl Zwergsignal
+property.svcdrawftype.name=Signalschirm
+property.value.DRAWF_DISTANT=Vorsignal
+property.value.DRAWF_EXIT=Ausfahrsignal
+property.value.DRAWF_MAIN=Mehrabschnittssignal
+property.value.DRAWF_SHUNTING=Sperrsignal
+property.sne2.name=Ne2
+property.sne2.desc=Gibt an, ob das Signal ein Vorsignal ist.
+property.sne2_4.name=Vorsignalwiederholer
+property.sne2_4.desc=Gibt an, ob das Signal ein Vorsignalwiederholer ist.

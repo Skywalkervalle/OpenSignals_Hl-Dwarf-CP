@@ -6,9 +6,7 @@
         "lamp_white": "opensignals:blocks/lamps/lamp_white",
         "lamp_white_blink": "opensignals:blocks/lamps/lamp_white_blink",
         "lamp_yellow": "opensignals:blocks/lamps/lamp_yellow",
-        "lamp_yellow_blink": "opensignals:blocks/lamps/lamp_yellow_blink",
-        "ne2": "opensignals:blocks/ne/ne2",
-        "ne2_4": "opensignals:blocks/ne/ne2_4"
+        "lamp_yellow_blink": "opensignals:blocks/lamps/lamp_yellow_blink"
     },
     "models":{
         "svc/hl_drawf/hl_dwarf_exit": 

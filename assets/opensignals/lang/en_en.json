@@ -1,0 +1,13 @@
+{
+"item.svchldrawfplacer.name":"Hl Dwarf signal placer",
+"tile.svcdrawf.name":"Hl Dwarf signal",
+"property.svcdrawftype.name":"Signal screen",
+"property.value.DRAWF_DISTANT":"Pre-signal",
+"property.value.DRAWF_EXIT":"exit signal",
+"property.value.DRAWF_MAIN":"Multi-section signal",
+"property.value.DRAWF_SHUNTING":"Blocking signal",
+"property.sne2.name":"Ne2",
+"property.sne2.desc":"Indicates whether the signal is a distant signal.",
+"property.sne2_4.name":"Pre-signal repeater",
+"property.sne2_4.desc":"Indicates whether the signal is a distant signal repeater."
+}

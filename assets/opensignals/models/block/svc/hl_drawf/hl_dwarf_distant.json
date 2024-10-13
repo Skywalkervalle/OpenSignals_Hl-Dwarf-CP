@@ -9,7 +9,7 @@
 		"lamp_yellow" :"opensignals:blocks/lamps/lamp_dark",
 		"lamp_green": "opensignals:blocks/lamps/lamp_dark",
 		"lamp_white": "opensignals:blocks/lamps/lamp_dark",
-		"particle": "opensignals:blocks/svc/hl_drawf/shield_black"
+		"particle": "opensignals:blocks/default/shield_black"
 	},
 	"elements": [
 		{
