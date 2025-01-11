@@ -1,6 +1,7 @@
 item.svchldrawfplacer.name=Hl Zwergsignal Platzierer
 tile.svcdrawf.name=Hl Zwergsignal
 property.svcdrawftype.name=Signalschirm
+property.svcdrawftype.desc=Signalart
 property.value.DRAWF_DISTANT=Vorsignal
 property.value.DRAWF_EXIT=Ausfahrsignal
 property.value.DRAWF_MAIN=Mehrabschnittssignal

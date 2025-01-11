@@ -1,6 +1,7 @@
 {
 "item.svchldrawfplacer.name":"Hl Dwarf signal placer",
 "tile.svcdrawf.name":"Hl Dwarf signal",
+"property.svcdrawftype.desc": "Signal type",
 "property.svcdrawftype.name":"Signal screen",
 "property.value.DRAWF_DISTANT":"Pre-signal",
 "property.value.DRAWF_EXIT":"exit signal",

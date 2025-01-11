@@ -1,8 +1,9 @@
 item.svchldrawfplacer.name=Hl Dwarf signal placer
 tile.svcdrawf.name=Hl Dwarf signal
 property.svcdrawftype.name=Signal screen
+property.svcdrawftype.desc=Signal type
 property.value.DRAWF_DISTANT=Pre-signal
-property.value.DRAWF_EXIT=exit signal
+property.value.DRAWF_EXIT=Exit signal
 property.value.DRAWF_MAIN=Multi-section signal
 property.value.DRAWF_SHUNTING=Blocking signal
 property.sne2.name=Ne2

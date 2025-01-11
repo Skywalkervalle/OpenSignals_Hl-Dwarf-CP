@@ -1,6 +1,7 @@
 {
     "item.svchldrawfplacer.name":"Hl Zwergsignal Platzierer",
     "tile.svcdrawf.name":"Hl Zwergsignal",
+    "property.svcdrawftype.desc": "Signalart",
     "property.svcdrawftype.name":"Signalschirm",
     "property.value.DRAWF_DISTANT":"Vorsignal",
     "property.value.DRAWF_EXIT":"Ausfahrsignal",
