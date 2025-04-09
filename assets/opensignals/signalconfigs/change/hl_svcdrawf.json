@@ -24,4 +24,4 @@
     "(map(slow) && speed(>=.6) && speed(<=.9)": ["mainlightsignallightbar.YELLOW", "mainlightsignal.HL8_9", "mainlightsignal_distant.HL7", "exitsignal.HL1", "blocksignal.HL1", "blockexitsignal.HL1"],
     "(map(slow) && speed(==.10)": ["mainlightsignallightbar.GREEN", "mainlightsignal.HL8_9", "mainlightsignal_distant.HL7", "exitsignal.HL1", "blocksignal.HL1", "blockexitsignal.HL1"]
     }
-}
+}    
