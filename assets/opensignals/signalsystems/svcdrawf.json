@@ -47,21 +47,21 @@
             "enumClass": "SVCDRAWFDISTANT",
             "defaultState": "OFF",
             "changeableStage": "APISTAGE_NONE_CONFIG",
-            "autoname": true,
+            "autoname": false,
             "dependencies": "config(SVCDRAWFTYPE.DRAWF_DISTANT)"        
         },
         {
             "name": "sne2",
             "enumClass": "SNE2",
             "defaultState": false,
-            "autoname": true,
+            "autoname": false,
             "changeableStage": "GUISTAGE"
         },
         {
             "name": "sne2_4",
             "enumClass": "SNE2_4",
             "defaultState": false,
-            "autoname": true,
+            "autoname": false,
             "changeableStage": "GUISTAGE"
         }
     ]
