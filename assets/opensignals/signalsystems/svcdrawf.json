@@ -9,7 +9,10 @@
         "colors": [
             16777215,
             16761344    
-        ]
+        ],
+        "renderHeights": {
+            "config(SVCDRAWFTYPE.DRAWF_DISTANT)": -1
+        }
     },
         "seProperties": [
         {
