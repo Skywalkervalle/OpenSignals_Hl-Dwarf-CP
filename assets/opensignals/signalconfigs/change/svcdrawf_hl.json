@@ -24,6 +24,11 @@
         "map(slow) && (speed(<.1) || speed(>=.11))": ["svcdrawfmain.HL7", "svcdrawfexit.HL1", "svcdrawfdistant.HL7", "svcdrawfsh.HL_STATUS_LIGHT"],
         "map(slow) && speed(>=.1) && speed(<=.5)": ["svcdrawfmain.HL8_9", "svcdrawfexit.HL2_3", "svcdrawfdistant.HL7", "svcdrawfsh.HL_STATUS_LIGHT"],
         "map(slow) && speed(>=.6) && speed(<=.9)": ["svcdrawfmain.HL8_9", "svcdrawfexit.HL2_3", "svcdrawfdistant.HL7", "svcdrawfsh.HL_STATUS_LIGHT"],
-        "map(slow) && speed(==.10)": ["svcdrawfmain.HL8_9", "svcdrawfexit.HL1", "svcdrawfdistant.HL7", "svcdrawfsh.HL_STATUS_LIGHT"]
+        "map(slow) && speed(==.10)": ["svcdrawfmain.HL8_9", "svcdrawfexit.HL1", "svcdrawfdistant.HL7", "svcdrawfsh.HL_STATUS_LIGHT"],
+
+        "map(slow) && map(100) && (speed(<.1) || speed(>=.11))": ["svcdrawfmain.HL5_6", "svcdrawfexit.HL1", "svcdrawfdistant.HL4", "svcdrawfsh.HL_STATUS_LIGHT"],
+        "map(slow) && map(100) && speed(>=.1) && speed(<=.5)": ["svcdrawfmain.HL5_6", "svcdrawfexit.HL1", "svcdrawfdistant.HL4", "svcdrawfsh.HL_STATUS_LIGHT"],
+        "map(slow) && map(100) && speed(>=.6) && speed(<=.9)": ["svcdrawfmain.HL5_6", "svcdrawfexit.HL1", "svcdrawfdistant.HL4", "svcdrawfsh.HL_STATUS_LIGHT"],
+        "map(slow) && map(100) && speed(==.10)": ["svcdrawfmain.HL5_6", "svcdrawfexit.HL1", "svcdrawfdistant.HL4", "svcdrawfsh.HL_STATUS_LIGHT"]
     }
 }
