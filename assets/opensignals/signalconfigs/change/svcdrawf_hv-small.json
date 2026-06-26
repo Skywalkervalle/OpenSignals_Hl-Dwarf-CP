@@ -1,6 +1,6 @@
 {
 "currentSignals": ["svcdrawf"],
-"nextSignals": ["hvsignal", "hvsignalbridge"],
+"nextSignals": ["smallsignalshvsignal"],
 "savedPredicates": 
 {
         "stop": "config(stopsignal.HP0) || config(stopsignal.SHUNTING) || config(hphome.HP0) || config(hphome.HP0_ALTERNATE_RED) || config(hpblock.HP0)",
