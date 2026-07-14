@@ -5,7 +5,8 @@
         "svcdrawfmain.HL_STATUS_LIGHT",
         "svcdrawfexit.HL_STATUS_LIGHT",
         "svcdrawfsh.HL_STATUS_LIGHT",
-        "svcdrawfdistant.HL_STATUS_LIGHT"
+        "svcdrawfdistant.HL_STATUS_LIGHT",
+        "svcdwarfmainzs2.HL_STATUS_LIGHT"
         ]
     }
 }

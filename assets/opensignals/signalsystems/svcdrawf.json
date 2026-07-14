@@ -45,6 +45,14 @@
             "autoname": true,
             "dependencies": "config(SVCDRAWFTYPE.DRAWF_SHUNTING)"
         },
+        {
+            "name": "svcdwarfmainzs2",
+            "enumClass": "SVCDWARFMAINZS2",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(SVCDRAWFTYPE.DWARF_MAIN_ZS2)"
+        },
         {     
             "name": "svcdrawfdistant", 
             "enumClass": "SVCDRAWFDISTANT",
@@ -66,6 +74,20 @@
             "defaultState": false,
             "autoname": false,
             "changeableStage": "GUISTAGE"
+        },
+        {
+            "name": "zs2v",
+            "enumClass": "ZS32",
+            "defaultState": "OFF",
+            "autoname": true,
+            "changeableStage": "APISTAGE"
+        },
+            {
+            "name": "zs2",
+            "enumClass": "ZS32",
+            "defaultState": "OFF",
+            "autoname": true,
+            "changeableStage": "APISTAGE"
         }
     ]
 }

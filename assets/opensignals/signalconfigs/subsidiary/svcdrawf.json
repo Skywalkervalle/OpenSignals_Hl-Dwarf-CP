@@ -4,7 +4,14 @@
         "ZS1": [
             "svcdrawfexit.HL_ZS1",
             "svcdrawfmain.HL_ZS1",
-            "svcdrawfsh.HL_ZS1"
+            "svcdrawfsh.HL_ZS1",
+            "svcdwarfmainzs2.HL_ZS1",
+            "zs2.OFF",
+            "zs2v.OFF"
+        ],
+        "ZS8": [
+            "zs2.ZS8",
+            "zs2v.OFF"
         ]
     }
 }

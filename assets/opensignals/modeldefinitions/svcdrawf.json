@@ -261,6 +261,126 @@
                 }
             ],
         "y":0
+        },
+        "svc/hl_drawf/hl_dwarf_main_zs2":
+        {
+            "textures": [
+                {
+                "blockstate": "with(SVCDWARFMAINZS2.OFF) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))"
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HP0) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_red": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL1) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL2_3) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL4) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL5_6) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_green": "lamp_green_blink",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL7) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL8_9) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow_blink",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL10) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL11_12) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL_ZS1) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_red": "lamp_red",
+                        "lamp_white_1": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL_SHUNTING) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_red": "lamp_red",
+                        "lamp_white_1": "lamp_white",
+                        "lamp_white_2": "lamp_white"
+                    }
+                },
+                {
+                    "blockstate": "with(SVCDWARFMAINZS2.HL_STATUS_LIGHT) && (with(SVCDRAWFTYPE.DWARF_MAIN_ZS2) || !has(SVCDRAWFTYPE))",
+                    "retexture": {
+                        "lamp_white_1": "lamp_white"
+                    }
+                }
+                
+            ],
+        "y": 0
+        },
+        "svc/hl_drawf/zs2_dwarf":
+        {
+            "textures":[
+                {
+                    "blockstate":"",
+                    "extentions":{
+                        "zs32.json":{
+                            "ZS2":"overlay"
+                        }
+                    }
+                }
+                
+            ],
+            "y": 0
+        },
+        "svc/hl_drawf/zs2v_dwarf":
+        {
+            "textures":[
+                {
+                    "blockstate":"",
+                    "extentions":{
+                        "zs32.json":{
+                            "ZS2V":"overlay"
+                        }
+                    }
+                }
+                
+            ],
+            "y": 0
         }
     }
 }
+

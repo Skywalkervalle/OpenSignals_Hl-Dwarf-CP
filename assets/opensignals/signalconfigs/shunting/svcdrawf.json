@@ -3,6 +3,7 @@
     "values":[
         "svcdrawfexit.HL_SHUNTING",
         "svcdrawfmain.HL_SHUNTING",
-        "svcdrawfsh.HL_SHUNTING"
+        "svcdrawfsh.HL_SHUNTING",
+        "svcdwarfmainzs2.HL_SHUNTING"
     ]
 }
