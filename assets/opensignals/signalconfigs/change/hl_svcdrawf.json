@@ -1,5 +1,5 @@
 {
-    "currentSignals": ["hlsignal", "hlsignalbridge"],
+    "currentSignals": ["hlsignal", "hlsignalbridge", "smallsignalshlsignal"],
     "nextSignals": ["svcdrawf"],
     "savedPredicates": 
     {
